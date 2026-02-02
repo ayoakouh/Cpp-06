@@ -2,7 +2,7 @@ CPP = c++
 NAME = a.out
 
 FLAGS = -Wall -Wextra -Werror -std=c++98 -MMD
-SRC = main.cpp ScalarConverte.cpp
+SRC = main.cpp Serializer.cpp
 OBJ = $(SRC:.cpp=.o)
 DEPS = ${OBJ:.o=.d}
 

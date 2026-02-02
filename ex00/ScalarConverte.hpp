@@ -1,8 +1,13 @@
 #ifndef SCALARCONVERTE_HPP
 #define SCALARCONVERTE_HPP
 
-#include <exception>
+#include <iostream>
 #include<string>
+#include<cmath>
+#include <iomanip>
+#include <cstdlib>
+#include <climits>
+#include <cerrno>
 
 class ScalarConverte {
     private :
@@ -25,10 +30,6 @@ class ScalarConverte {
         static void ConvertDouble(std::string input);
 
         static void Impossible();
-        class HelperException : public std::exception
-        {
-            const char* what() const throw();
-        }
-}
+};
 
 #endif
