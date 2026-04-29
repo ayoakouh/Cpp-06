@@ -4,12 +4,12 @@
 #include <stdint.h>
 #include <iostream>
 
+
 struct Data
 {
     int x;
     char y;
 };
-
 
 class Serializer
 {

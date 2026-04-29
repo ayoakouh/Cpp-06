@@ -1,5 +1,5 @@
 CPP = c++
-NAME = a.out
+NAME = convert
 
 FLAGS = -Wall -Wextra -Werror -std=c++98 -MMD
 SRC = main.cpp ScalarConverte.cpp
